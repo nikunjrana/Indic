@@ -1,0 +1,80 @@
+.vkalpImg{height: 36px;width: 36px;}
+.pdl45{padding-left: 45px;}
+.w130{width:130px;}
+.mt3{margin-top: 3px;}
+.gstCross{font-size: 29px;top: 7px;right: 10px;}
+.brdw1 {
+    border: 1px solid #fff;
+}
+
+.gstcontainer {padding-left: 24px;cursor: pointer;background-color: transparent;}
+.gstcontainer input {opacity: 0;cursor: pointer;background-color: #fff;}
+/* Create a custom radio button */
+.gstcontainer .checkmark {left:0;height: 16px;width: 16px;border: solid 2px #00a699;background-color: #fff;top:4px;}
+/* When the radio button is checked, add a blue background */
+.gstcontainer input:checked ~ .checkmark {background-color: #fff;border: solid 2px #00a699;box-shadow: 0 3px 6px 0 rgba(0, 166, 153, 0.49);}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.gstcontainer .checkmark:after {content: "";position: absolute;display: none;}
+/* Show the indicator (dot/circle) when checked */
+.gstcontainer input:checked ~ .checkmark:after {display: block;}
+/* Style the indicator (dot/circle) */
+.gstcontainer .checkmark:after {top: 3px;left: 3px;width: 6px;height: 6px;background-color: #00a699;border-radius: 50%;}
+.rejectGst li{white-space: nowrap;border-radius: 14.5px;margin-right: 3px;height: 26px;line-height: 24px;color:#5a5a5b;}.rejectGst li input{margin-right: 5px;top: 2px;}
+.lh36{line-height : 36px}
+.fullsoiloader{height: 100%; background: rgba(255, 255, 255, 0.7); width: 100%; z-index: 999;}
+.fullsoiloader,.fullsoiloader .loader{margin: auto; top: 0;bottom: 0;left: 0;right: 0;}
+.pdl32{padding-left: 32px;}.pdl40{padding-left: 40px;}
+.pdl30{padding-left:30px;}
+
+.shieldGst{height: 35px;top: 16px;color: #ffa05a;width: 31px;}
+.pdl58{padding-left:58px;}
+.clrffa{color:#ffa05a;}.pdl0{padding-left:0;}
+.gstTick{
+    background-image: url('https://m.imimg.com/gifs/img/gstTick.svg');
+    width: 24px;
+    top: -4px;
+    height: 24px;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.gstInput{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    border: 1px solid #00a699;
+}
+.brdbw{
+    border-bottom: 1px solid #fff;
+}
+.gstInput::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+    text-transform: capitalize;
+}
+.gstInput:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   text-transform: capitalize;
+}
+.gstInput::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   text-transform: capitalize;
+}
+.gstInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+   text-transform: capitalize;
+}
+.gstInput::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+   text-transform: capitalize;
+}
+
+.gstInput::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+   text-transform: capitalize;
+}
+.ht31p{height: 31px;}
+.ma012{margin:0 12px }
+.pdb10{padding-bottom: 10px;}
+.bxrdb5{
+border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

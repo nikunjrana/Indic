@@ -1,0 +1,76 @@
+.compCl:active {
+  background: radial-gradient(circle, transparent 1%, #000 1%) center/15000%
+    #000;
+  background-size: 100%;
+  transition: background 0s;
+}
+.callIcn {
+  background-position: -137px -207px;
+  background-size: 190px;
+  height: 14px;
+  width: 14px;
+}
+.bxsdw {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.bxrd20 {
+  border-radius: 20px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.callIcnGridView {
+  background-position: -138px -206px;
+  background-size: 190px;
+  height: 13px;
+  width: 18px;
+}
+.mar2per {
+  margin-right: 2%;
+}
+
+.phone svg{width:26px;height:22px;margin-top:9px;margin-left:11px}
+.phone svg path{fill:#02887d}
+.isFirstFold.phone svg{width:18px;height:18px;margin:0 5px 0 0}
+.isFirstFold.phone svg path{fill:#fff}
+.phone svg path:nth-child(2){-webkit-animation:header-phone 0.8s infinite cubic-bezier(.1,.57,.5,1);animation:header-phone 0.8s infinite cubic-bezier(.1,.57,.5,1)}
+.phone svg path:nth-child(3){-webkit-animation:header-phone2 0.8s infinite cubic-bezier(.1,.57,.5,1);animation:header-phone2 0.8s infinite cubic-bezier(.1,.57,.5,1)}
+.crx1:after{content:"";visibility:hidden;display:block;height:0;clear:both}
+.bxsdw777{box-shadow: 0 4px 4px -4px #777;}
+.wCallIcon{
+  background-image: url('https://m.imimg.com/gifs/img/callIconM.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.hw40{
+  height:40px;
+  width:40px;
+}
+.mt5{
+  margin-top:5px;
+}
+.wfc{width: fit-content;}
+.hw45{
+  height:45px;
+  width:45px;
+}
+
+/* Animate phone */
+@-webkit-keyframes header-phone {
+  0%,30% {opacity:0; -webkit-transform:translate3d(-20px, 20px, 0); transform:translate3d(-20px, 20px, 0)}
+  80% {opacity:1; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0)}
+  100%{opacity:0}}
+@keyframes header-phone {
+  0%,30%{opacity:0; -webkit-transform:translate3d(-20px, 20px, 0); transform:translate3d(-20px, 20px, 0)}
+  80%{opacity:1; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0)}
+  100%{opacity:0}}
+@-webkit-keyframes header-phone2 {
+  0%{opacity:0; -webkit-transform:translate3d(-20px, 20px, 0); transform:translate3d(-20px, 20px, 0)}
+  70%,90%{opacity:1; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0)}
+  100%{opacity:0}}
+@keyframes header-phone2 {
+  0%{opacity:0; -webkit-transform:translate3d(-20px, 20px, 0); transform:translate3d(-20px, 20px, 0)}
+  70%,90%{opacity:1; -webkit-transform:translate3d(0, 0, 0); transform:translate3d(0, 0, 0)}
+  100%{opacity:0}}

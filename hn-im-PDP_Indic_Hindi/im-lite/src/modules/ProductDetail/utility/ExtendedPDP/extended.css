@@ -1,0 +1,26 @@
+.fs18 {
+    font-size: 18px;
+}
+.lnHt0 {
+    line-height: 0;
+}
+.cntr {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dividNxt {
+    width: 155px;
+    height: 20px;
+    line-height: 20px;
+}
+.dividLn {
+    height: 1px;
+    background-color: #000;
+}
+.mb10
+{
+    margin-bottom: 10px
+}.z0{z-index: 0;}

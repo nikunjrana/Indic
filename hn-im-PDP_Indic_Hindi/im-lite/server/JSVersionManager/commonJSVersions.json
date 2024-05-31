@@ -1,0 +1,13 @@
+{
+    "PROD_URL":{
+        "central_enq":"https://dev-m.imimg.com/enqBl/centralizeEnqBl_3_4_8.js",
+        "central_enq_html":"https://m.imimg.com/enqBl/commonJs/EnqHtml_0.7.9.js",
+        "cental_common":"https://m.imimg.com/enqBl/api/common_0_1_2.min.js",
+        "cental_chatbljs":"https://m.imimg.com/enqBl/chatlikebl/chatbl_0_5_1.min.js",
+        "miniBlJs":"https://m.imimg.com/enqBl/miniBl/js/miniBl_0.5.8.min.js",
+        "popUpHtml":"https://m.imimg.com/gifs/js/PopUpHtml_19.min.js",
+        "popUpLogic":"https://m.imimg.com/gifs/js/PopUpLogic_78.min.js",
+        "popUpFlow":"https://m.imimg.com/gifs/js/CentralPopUpFlow_25.min.js",
+        "MimBanner":"https://m.imimg.com/gifs/js/MimBanner_16.min.js"
+    }
+    }

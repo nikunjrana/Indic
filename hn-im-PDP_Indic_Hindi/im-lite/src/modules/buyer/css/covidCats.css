@@ -1,0 +1,102 @@
+.mb10 {
+  margin-bottom: 10px;
+}
+.pdt10 {
+  padding-top: 10px;
+}
+
+.fw {
+  font-weight: 700;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.dfj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.w50 {
+  width: 50%;
+}
+.bxrd4 {
+  border-radius: 4px;
+}
+.bgw {
+  background-color: #fff;
+}
+.img1{
+  background-image: url("https://5.imimg.com/data5/EU/MU/JD/SELLER-3136243/portable-oxygen-cylinder-250x250.png");
+}
+.img2{
+  background-image: url("https://5.imimg.com/data5/EP/CU/SU/SELLER-3005753/glenmark-fabiflu-tablets-200-mg-250x250.jpg")
+}
+.bgImg{
+  background-size: cover;
+  height: 200px;
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+}
+.grad {
+  background: linear-gradient(rgba(111, 111, 111, 0) 30%, rgb(0, 0, 0) 100%);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  z-index: 5;
+}
+.fs16 {
+  font-size: 16px;
+}
+.clrw {
+  color: #fff;
+}
+.tl {
+  text-align: left;
+}
+.pd10 {
+  padding: 10px;
+}
+.pdb15 {
+  padding-bottom: 15px;
+}
+.b0 {
+  bottom: 0;
+}
+.fwn{
+  font-weight: normal; 
+}
+.c1{color: #000;}
+.cvn{
+  background-image: url(https://m.imimg.com/gifs/img/cvn-new-1.webp);
+  background-repeat: no-repeat;
+}
+/* .cvnI{
+  background-image: url(https://m.imimg.com/gifs/img/cvni3.webp);
+  background-repeat: no-repeat;
+} */
+
+
+.cvnp1{ background-position: 0 0;   }
+.cvnp2{ background-position: 6px -125px;   }
+.cvnp3{ background-position: 6px -258px;   }
+.cvnp4{ background-position: 6px -520px;}
+.cvnp5{ background-position: 10px -398px;}
+.cvnp6{ background-position: 6px -658px;}
+.RhtAr::after{ border: solid rgb(46 49 146 / 82%);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  top:13px;
+  right: 8px;
+  transform: rotate(-45deg);
+  content: "";
+}
+.bgCce {
+  background-color: #cce8eb
+}
+
+
+

@@ -1,0 +1,130 @@
+syntax = "proto3";
+
+package PDP;
+
+option go_package = ".;pdp";
+
+service PDP{
+    rpc GetProductDetails(PDPRequest) returns (PDPResponse) {}
+}
+
+message PDPRequest{
+    int64 displayid = 1;
+    int32 language_id = 2;
+}
+
+message PDPResponse {
+    string	glusr_usr_id = 1;
+    string	companyname	= 2;
+    string	city = 3;
+    string	glusr_usr_district	=	4;  
+    string	glusr_usr_state	=	5;
+    string	glusr_usr_zip	=	6;
+    string	fk_gl_country_iso	=	7;
+    int32	glusr_usr_custtype_weight	=	8;
+    string	glusr_cust_name	=	9;
+    int32	city_id	=	10;
+    string	mobile_pns =	11;
+    string	mobile	=	12;
+    string	locality =		13;
+    string	pc_item_name =	14;
+    string	pc_img_small_600x600 =		15; 
+    string	is_prod_serv	=	16;
+    int32	prime_mcat_id	=	17;
+    int32	brd_mcat_id	=	18;
+    string	brd_mcat_name	=	19;
+    int32	brd_cat_id	=	20;
+    string	brd_cat_name	=	21;
+    int32	brd_grp_id	=	22;
+    string	brd_grp_name	=	23;
+    string	brd_mcat_flname	=	24;
+    string	brd_cat_flname	=	25;
+    string	brd_ctl_flname	=	26;
+    string	brd_grp_flname	=	27;
+    string	pc_item_min_order_quantity	=	28;
+    string	product_price	=	29;
+    string	pc_item_id	=	30;
+    string	pc_img_small_125x125_wh	=	31;
+    string	pc_img_small_500x500_wh	=	32;
+    string	pc_item_status_approval	=	33;
+    string	pc_item_display_id	=	34;
+    int32	iil_display_flag	=	35;
+    string	pc_item_img_small	=	36;
+    string	pc_item_img_small_wh	=	37;
+    string	gst_no	=	38;
+    float	pns_ratio =	39;
+    int32	status	=	40;
+    repeated ISQ	isq	=	41;
+    repeated Image	secondary_image 	=	42;
+    repeated RecommendedMcatData	recommended_mcats_all_india	=	43;
+    repeated RecommendedProductData	recommended_products_all_india	=	44;
+    repeated RecommendedMcatData	recommended_mcats_city_pla	=	45;
+    repeated RecommendedProductData	recommended_products_city_pla	=	46;
+    string METATITLE = 47;
+    string METADESC = 48;
+    string METAKEYWORD = 49;
+    string display_name = 50;
+    string company_logo = 51;
+}
+
+message ISQ {
+    string	fk_im_spec_master_desc	=	1;
+    int32	fk_im_spec_master_id	=	2;
+    int32	pc_item_attribute_id	=	3;
+    int32	im_spec_master_buyer_seller	=	4;
+    string	im_cat_spec_priority	=	5;
+    string	im_cat_spec_affix_type	=	6;
+    string	im_cat_spec_type	=	7;
+    int32	pc_item_attribute_mcatid	=	8;
+    string	im_spec_options_desc	=	9;
+    string	im_spec_options_id	=	10;
+    string	im_spec_master_type	=	11;
+    string	supplier_response_detail	=	12;
+    string	supplier_response_detail_uom	=	13;
+    string	isq_response_id	=	14;
+}
+
+message RecommendedMcatData {
+    int32	glcat_mcat_id	=	1;
+    string	glcat_mcat_name	=	2;
+    string	glcat_mcat_flname	=	3;
+    string	glcat_mcat_img1_125x125	=	4;
+    string	glcat_mcat_img1_250x250	=	5;
+    string	glcat_mcat_img1_500x500	=	6;
+    string	url	=	7;
+    string	gl_city_name	=	8;
+    int32	gl_city_id	=	9;
+}
+
+message RecommendedProductData {
+    string	item_id	=	1;
+    string	item_name	=	2;
+    string	companyname	=	3;
+    string	city_name	=	4;
+    string	state_name	=	5;
+    string	image_125x125	=	6;
+    string	image_250x250	=	7;
+    string	image_500x500	=	8;
+    string	glusr_id	=	9;
+    string	display_id	=	10;
+    string	mobile_type	=	11;
+    string	locality	=	12;
+    string	pdp_url	=	13;
+    string	pc_item_display_name	=	14;
+    string	contact_number	=	15;
+    string	contact_type	=	16;
+    string	glusr_cust_name	=	17;
+    string	price	=	18;
+    string	iil_display_flag	=	19;
+    string	mcat_id	=	20;
+    string	mobile_number	=	21	;
+}
+
+message Image {
+    string	IMAGE_250x250	=	1;
+    int32	IMAGE_250x250_WIDTH	=	2;
+    int32	IMAGE_250x250_HEIGHT	=	3;
+    string	IMAGE_500X500	=	4;
+    int32	IMAGE_500X500_WIDTH	=	5;
+    int32	IMAGE_500X500_HEIGHT	=	6;  
+}

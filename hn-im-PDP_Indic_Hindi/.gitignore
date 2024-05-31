@@ -1,0 +1,37 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files @Pushpendra-33501.
+
+# dependencies
+im-lite/node_modules
+node_modules
+
+# testing
+im-lite/coverage
+
+# production
+im-lite/build
+
+# misc
+
+im-lite/.DS_Store
+im-lite/.env
+im-lite/npm-debug.log*
+im-lite/package.json
+/nbproject/
+/im-lite/nbproject/
+
+/im-lite/nbproject/private/
+im-lite/pwagifs/
+pwagifs
+im-lite/node_modules/*
+im-lite/package-lock.json
+package-lock.json
+pm2_config.json
+im-lite/server/Attachmentuploads/*
+im-lite/server/Imageuploads/*
+.idea/*
+.history/*
+package.json
+package-lock.json
+im-lite/package.json*
+im-lite/package-lock.json*
+im-lite/.vscode/

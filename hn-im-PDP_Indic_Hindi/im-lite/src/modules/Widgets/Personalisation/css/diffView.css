@@ -1,0 +1,33 @@
+.Homegridview .dib.compCl.bxsdw.bxrd20.fs14.clrw.mb10.pdt10.pdb10.w80 {
+    width: 42%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.hw48{width: 48%;}
+.ht40{height: 40px;}
+.lht40{line-height: 40px;}
+.w68{width: 68%;}
+.imgbox{height: 175px;}
+.pdt6{padding-top: 6px;}
+.pdb6{padding-bottom: 6px;}
+.pdl6{padding-left: 6px;}
+.pdr6{padding-right: 6px;}
+.mal1{margin: 1% ;}
+.pd1Al {
+    padding: 1% ;
+}
+.flwr {
+    flex-wrap: wrap;
+}
+.cnItem {
+    justify-content: center;
+    align-items: center; 
+}
+.pdl4{padding-left: 4px;}
+.pdr4{padding-right: 4px;}
+.ml4{margin-left: 4px;}

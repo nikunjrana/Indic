@@ -1,0 +1,26 @@
+.bkggrey{
+    background-color: rgba(51,51,51,.7);
+}
+.z112 {
+    z-index: 112!important;
+}
+.btm0 {
+    bottom: 0;
+  }
+  .bxrdTR10 {
+    border-radius: 10px 10px 0 0;
+}
+.ht110{
+    height: 110px;
+}
+.closeIcon{
+    flex-direction: row-reverse;
+}
+.aMClose{
+    width: 24px;
+    height: 24px;
+    right: 9px;
+    background-position: -180px -37px;
+    top: 9px;
+}
+.m-img {background-image: url('https://m.imimg.com/gifs/img/msite_sprite_v021.png');background-repeat: no-repeat;}

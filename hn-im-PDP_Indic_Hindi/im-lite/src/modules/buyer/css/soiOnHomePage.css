@@ -1,0 +1,50 @@
+.rectangle {
+    width: 100%;
+  height: 127px;
+  margin: 6px 8px 6px 0px;
+  padding: 13px 4px 0 12px;
+  border-radius: 6px;
+  border: solid 1px #a6e0dc;
+  background-image: linear-gradient(to bottom, #e3fffc, #fdfefe, #a5dfdb);
+  }
+  .soiHomeHeading{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+  }
+  .soiHomeText{
+    width: 230px;
+    height: 19px;
+    margin: 25px 39px 17px 0;
+    font-size: 13px;
+    color: #333333;
+  }
+  .soiHomeButton{
+    width: 203px;
+      height: 35px;
+      margin: 1px 21px 15px 0;
+      padding: 7px 44px 9px 42px;
+      border-radius: 4px;
+      box-shadow: 0 2px 2px 0 #00867b;
+      background-color: #008aff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .dfj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ml10{
+    margin-left: 10px;
+  }
+  .poa{
+      position:absolute;
+  }
+  .fl{
+      float: left;
+  }
+  .fr{
+      float: right;
+  }

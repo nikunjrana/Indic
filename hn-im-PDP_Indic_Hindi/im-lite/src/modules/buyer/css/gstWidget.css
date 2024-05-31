@@ -1,0 +1,12 @@
+.fullsoiloader{height: 100%; background: rgba(255, 255, 255, 0.7); width: 100%; z-index: 999;}
+.fullsoiloader,.fullsoiloader .loader{margin: auto; top: 0;bottom: 0;left: 0;right: 0;}
+.brd97{border:1px solid #979797}
+.clrred{color:#e12e2e;}
+.lh25{line-height: 25px;}
+#gstMenuBox .tickTick {top: 8px;left: auto;right:0;}
+.w90{width: 90%;} .w60{width: 60%;}.fs16{font-size: 16px;} .pdl20{padding-left: 20px;}
+.cross{
+    font-weight: 100;
+    right: 7px;
+    top: 1px;
+}

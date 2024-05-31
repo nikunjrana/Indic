@@ -1,0 +1,96 @@
+.fs20 {
+    font-size: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+
+
+.mlr50 {
+    margin: 0 50px;
+}
+.mr50{
+    margin-right: 50px;
+}
+
+.vh
+{
+    visibility: hidden;
+}
+.pdt13
+{
+padding-top: 13px;
+}
+.tp24
+{
+    top: 24px;
+}
+
+.subHeading {
+    color: #666666;
+}
+
+.pdb100 {
+    padding-bottom: 100px;
+}
+
+.tryAgnBtn {
+    height: 44px;
+    border-radius: 22px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+    background-color: #00a69b;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.db {
+    display: block;
+}
+
+.poa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.l0 {
+    left: 0;
+}
+
+.r0 {
+    right: 0
+}
+
+.maEr {
+    margin: auto;
+}
+
+.fw{
+    font-weight: bold;
+}
+.w80 {
+    width:80%;
+}
+
+.w60 {
+    width:60%;
+}
+
+.tempFtrHndlng {
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+}
+.verticalCenter
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 10px;
+}
+

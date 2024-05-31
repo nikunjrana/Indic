@@ -1,0 +1,6 @@
+.stickyTab{position:fixed;top:-100px;width:100%;background-color:#fff;z-index:10;box-shadow:0 3px 6px 4px rgb(167 167 167 / 50%);transition:all .2s linear 0s;-webkit-transition:all .2s linear 0s;-moz-transition:all .2s linear 0s;-o-transition:all .2s linear 0s;border-bottom: 1px solid #fff;}
+.tabNav{display: flex;}
+.tabNav li:nth-child(1){width: 28%;}
+.tabNav li{width: 36%;margin: 0;}
+.tabNav li p{font-size:14px;padding:12px 1px;color:#333;border-bottom:1px solid #fff;width:100%;text-overflow:ellipsis;text-align:center;float:left;white-space:nowrap}
+.tabNav li p.tabActive{color:#15746D;border-bottom: 2px solid #15746D; margin-bottom: -4px;}

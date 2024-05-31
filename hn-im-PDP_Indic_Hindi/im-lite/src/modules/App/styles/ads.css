@@ -1,0 +1,74 @@
+.df {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.brd9e{
+    border: 1px solid #6c7275
+}
+
+.pd210{
+    padding: 2px 8px;
+} 
+
+.z1 {
+    z-index: 1;
+}
+
+.fs10 {
+    font-size: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+.btm59 {
+    bottom: 59px;
+}
+.pa{
+    position: absolute;
+}
+.b43{
+bottom: 43px;
+}
+.AdslotsEnq{
+    left:0px;
+    right:0px;
+    margin:auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Adslots{ max-width:500px; margin:0 auto;}
+   }
+
+.adText {
+    top:5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.adHome {max-height: 330px; overflow: hidden;}
+.btmBorder { border-bottom: 1px solid gray;}
+.mb6{margin-bottom: 6px;}
+.bgw{background-color: #ffff;}
+.grystrp{width: 100%; height: 4px; background-color: lightgray;} 
+.mt4{margin-top: 4px;}  
+.ht300{height: 300px;}
+.ht280{height: 280px;}
+.htimp60{height: 60px !important;}
+.grytp{border-top: 4px solid #d3d3d3;}
+.grybt{border-bottom:4px solid #d3d3d3;}
+.dn{display: none;}

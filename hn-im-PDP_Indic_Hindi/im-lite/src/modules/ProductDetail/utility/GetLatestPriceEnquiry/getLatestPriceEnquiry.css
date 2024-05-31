@@ -1,0 +1,40 @@
+.pr25 {
+    padding-right: 25px;
+}
+.enqIcnAB{
+    background-image: url("https://m.imimg.com/gifs/img/enqIcnAB.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 17px;
+    height: 12px;
+}
+.clrmim {
+    color: #00a699;
+}
+.bt5{
+    bottom: 5%;
+}
+.r5px{
+    right: 5px;
+}
+.t7px{
+    top: 7px;
+}
+.bt-16{
+    bottom: -16px;
+}
+.w40{
+    width: 40%;
+}
+.pd5b10{
+    padding:10px 5px 5px 10px; 
+}
+.ifr{
+z-index: 10000;
+}
+.t10{
+    top:10px
+}
+.l25{
+    left: 25%;
+}

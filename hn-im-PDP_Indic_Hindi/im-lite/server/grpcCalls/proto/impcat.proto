@@ -1,0 +1,97 @@
+syntax = "proto3";
+
+package Impcat;
+
+option go_package = ".;impcat";
+
+service Impcat{
+  rpc ImpcatService(ImpcatRequest) returns (ImpcatResponse) {}
+}
+
+message ImpcatRequest{
+  int32	mcatid	= 1;
+  string	modid	= 2;
+  int32	cityid	= 3;
+  int32	language_id = 4;
+  string  flname = 5;
+}
+
+message ImpcatResponse{
+  repeated Productdata data = 1;
+  string	ctl_flname = 2;
+  ParentData PARENT_MCAT = 3;
+  repeated Mcatdata mcatdata = 4;
+  repeated Citydata city_bar = 5;
+  string	code = 6;
+  Meta_Data McatMetaData = 7;
+  string mcat_name = 8;
+  string city_name = 9;
+  string mcat_flname =10;
+}
+
+message Productdata {
+  string pc_item_display_name = 1;
+  string prd_name = 2;
+  string pc_item_secondary_name = 3;
+  string pc_item_url_name = 4;
+  string COMPANY = 5;
+  string companylink = 6;
+  string search_url = 7;
+  string comp_contct = 8;
+  string comp_contct_val = 9;
+  string cat_flname = 10;
+  int32 CUSTTYPE_WEIGHT1 = 11;
+  string tscode = 12;
+  string photo_125 = 13;
+  string photo_250 = 14;
+  string SDA_GLUSR_USR_LOCALITY = 15;
+  string city = 16;
+  string city_orig = 17;
+  string district = 18;
+  string prd_price = 19;
+  string standardPrice = 20;
+  string unit = 21;
+  int64 disp_id = 22;
+  int64 gl_id = 23;
+  int32 iil_display_flag = 24;
+  string small_desc = 25;
+  string company_logo = 26;
+  repeated ISQData prd_isq = 27;
+}
+
+message ISQData {
+  string MASTER_DESC = 1;
+  string OPTIONS_DESC = 2;
+}
+
+message ParentData {
+  int32 glcat_mcat_id	= 1;
+  string glcat_mcat_flname = 2;
+  string glcat_mcat_name	= 3;
+}
+
+message Mcatdata {
+  int32 REL_TYPE_FLAG = 1;
+  string GL_CITY_FLNAME = 2;
+  string GLCAT_MCAT_FLNAME = 3;
+  string GL_CITY_NAME = 4;
+  string GLCAT_MCAT_NAME_SECONDARY = 5;
+  string GLCAT_MCAT_NAME = 6;
+  string GLCAT_MCAT_IMG1_125X125 = 7;
+  int32 GLCAT_MCAT_ID = 8;
+}
+
+message Citydata {
+  string PRD_SEARCH_CITY = 1;
+  string PRD_SEARCH_CITY_SECONDARY = 2;
+  string GL_CITY_FLNAME = 3;
+  int32 GL_CITY_ID = 4;
+}
+
+message Meta_Data{
+  string bucket = 1;
+  int32 order = 2;
+  string title = 3;
+  string desc = 4;
+  string keyword = 5;
+}

@@ -1,0 +1,46 @@
+
+.chat-box {
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    opacity:0px;
+    z-index:999;
+}
+.chat-bubb {
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+    background-size: 30px 30px;
+    background-position: center;
+   
+}
+.bgd17272{
+   background-color: #d17272;
+   background-repeat: no-repeat;
+}
+
+.w48px{
+   width: 64px;
+}
+.h48px{
+   height: 64px;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }

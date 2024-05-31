@@ -1,0 +1,10 @@
+let statesIndian = {
+
+
+    getIndianStates() {
+        let data = {title:"Tenders by State",listValues:{"Andaman & Nicobar":"andaman-and-nicobar","Andhra Pradesh":"andhra-pradesh","Arunachal Pradesh":"arunachal-pradesh","Assam":"assam","Bihar":"bihar","Chandigarh":"chandigarh","Chhattisgarh":"chhattisgarh","Delhi":"delhi","Dadra And Nagar Haveli":"dadra-and-nagar-haveli","Daman And Diu":"daman-and-diu","Goa":"goa","Gujarat":"gujarat","Haryana":"haryana","Himachal Pradesh":"himachal-pradesh","Jammu & Kashmir":"jammu-and-kashmir","Jharkhand":"jharkhand","Karnataka":"karnataka","Kerala":"kerala","Madhya Pradesh":"madhya-pradesh","Maharashtra":"maharashtra","Manipur":"manipur","Meghalaya":"meghalaya","Nagaland":"nagaland","Orissa":"orissa","Pondicherry":"pondicherry","Punjab":"punjab","Rajasthan":"rajasthan","Sikkim":"sikkim","Tamil Nadu":"tamil-nadu","Telangana":"telangana","Tripura":"tripura","Uttar Pradesh":"uttar-pradesh","Uttarakhand":"uttarakhand","West Bengal":"west-bengal"}};
+        //let data = [{"Andaman & Nicobar":"Andaman-&-Nicobar","Andhra Pradesh":"Andhra-Pradesh","Arunachal Pradesh":"Arunachal-Pradesh","Assam":"Assam","Bihar":"Bihar","Chandigarh":"Chandigarh","Chhattisgarh":"Chhattisgarh","Delhi":"Delhi","Goa":"Goa","Gujarat":"Gujarat","Haryana":"Haryana","Himachal Pradesh":"Himachal-Pradesh","Jammu & Kashmir":"Jammu-&-Kashmir","Jharkhand":"Jharkhand","Karnataka":"Karnataka","Kerala":"Kerala","Madhya Pradesh":"Madhya-Pradesh","Maharashtra":"Maharashtra","Manipur":"Manipur","Meghalaya":"Meghalaya","Nagaland":"Nagaland","Orissa":"Orissa","Pondicherry":"Pondicherry","Punjab":"Punjab","Rajasthan":"Rajasthan","Sikkim":"Sikkim","Tamil Nadu":"Tamil-Nadu","Telangana":"Telangana","Tripura":"Tripura","Uttar Pradesh":"Uttar-Pradesh"}]
+    return data;
+    }
+}
+export default statesIndian;

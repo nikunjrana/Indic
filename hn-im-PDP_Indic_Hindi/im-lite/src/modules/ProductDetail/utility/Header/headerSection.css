@@ -1,0 +1,17 @@
+.stilheadPDP{position:fixed;z-index:10;top:0;left:0;width:100%}.headPDP{background-color:#00a699;color:#fff;height:45px;}.logoPDP{width:118px;height:22px;background-size:100%;background-position:0 -16px;margin:11px 0 0 0; position: absolute;left:44px
+}.vam{vertical-align:middle}.smllogoPDP{width:28px;height:26px;background-position:-23px 1px;margin:8px 0 0 0}.stilheadPDP .smllogoPDP{display:inline-block;margin-left:45px}.stilheadPDP .bigSrcBlk{display:block}.stilheadPDP .logoPDP,.stilheadPDP .smlSrchIcon{display:none}.txtElip{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.bxrd4{border-radius:4px}.bigSrcBlk{margin:7px 8px 0 80px;padding:6px 5px 6px 32px;line-height:21px}.bxdw2{box-shadow:0 0 3px rgba(0,0,0,.25)}.fs14{font-size:14px}.clr33{color:#333}.bigSrcBlk i{width:33px;height:33px;left:0;top:0;background-repeat:no-repeat;background-position:center 7px;background-image:url(https://m.imimg.com/gifs/img/search-icon.svg)}
+.tbSp{background-image:url(https://m.imimg.com/gifs/img/pwa-HS2.png);background-repeat:no-repeat}.z99{z-index:99}
+.fl
+{
+float: left;
+}
+.fr
+{
+float: right;
+}
+
+
+.menu_icon_pdp{
+    position:absolute !important;
+}
+

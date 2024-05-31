@@ -1,0 +1,15 @@
+variables:
+  GIT_STRATEGY: none
+
+stages:
+  - deploy
+  - test   
+
+Deploy to dev:
+  stage: deploy
+  script:
+     - ssh -o StrictHostKeyChecking=no intermsh@10.128.12.66 "(cd /home3/indiamart/public_html/dev-hn-im; git pull;git status)"
+     - echo "Kill Ssh-agent"
+     - eval $(ssh-agent -k)
+  only:
+     - development

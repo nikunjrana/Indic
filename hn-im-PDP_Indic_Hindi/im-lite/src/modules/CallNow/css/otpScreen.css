@@ -1,0 +1,174 @@
+.bge5 {
+    background-color: #e5f7f5;
+}
+.bg6d{
+    background-color: #6d6d6d;
+}
+.bg0a {
+    background-color: #00a699;
+}
+.clr7B {
+    color: #7b7b7b;
+}
+.clr5a {
+    color: #5a5a5b;
+}
+.fs12 {
+    font-size: 12px;
+}
+.fs13{
+    font-size: 13px;
+}
+.fs15{
+    font-size: 15px;
+}
+.w45 {
+    width: 45%;
+}
+.w70 {
+    width: 70%;
+}
+.w90{
+    width:90%;
+}
+.h50px{
+    height:50px
+}
+.prd_img{
+    width: 50px; 
+    height: 50px;
+}
+.lr0 {
+    left: 0;
+    right: 0;
+}
+.tp-80{
+    top: -80px;
+}
+.tp30 {
+    top: 30px;
+}
+.ma {
+    margin-left: auto;
+    margin-right: auto;
+}
+.mr3{
+    margin-right: 3px;
+}
+.mt5{
+    margin-top: 5px
+}
+.m5 {
+    margin: 5px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb15 {
+    margin-bottom: 15px;
+}  
+.mb20 {
+    margin-bottom: 20px;
+}
+.pd5 {
+    padding: 5px;
+}
+.pdb5{
+    padding-bottom: 5px;
+}
+.pdl15{
+    padding-left: 15px;
+}
+.pdt15 {
+    padding-top: 15px;
+}
+.bxrd4 {
+    border-radius: 4px;
+}
+.bxrd20 {
+    border-radius: 20px;
+}
+.bdrA0 {
+    border: 1px solid #a0a0a0;
+}
+.bxsdw {
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+/*   pf   write this in basic.css     */
+
+.tsIcn{
+    background-position: -77px 0;
+    width: 15px;
+    height: 15px
+}
+.phnIcn{
+    width: 20px;
+    height: 26px;
+    background-position: -179px -14px;
+    transform: scale(.7);
+    left: -20px;
+    top: -6px;  
+}
+.bxgr {
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.3);
+    border-radius: 20px 20px 6px 6px;
+}
+
+.resndBtn{
+    height: fit-content;
+    width: 70px;
+    right: -10px;
+    top: 9px;
+}
+.mt15p{
+    margin-top: 15%;
+}
+
+.callimgIco2 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 14px;
+    height: 14px;
+    margin-left: -69px;
+    margin-top: 13px;
+    background-image: url("https://m.imimg.com/gifs/img/callIcnNAB.svg");}
+
+
+.otptxtbox {
+    width: 100px;
+    letter-spacing: 10px !important;
+    padding-left: 9px !important;
+}
+input#otpInputDiv { width: 100px; }
+
+.borderBlue{
+    border: 1px solid #2e3192;
+}
+
+.borderGrey{
+    border: 1px solid grey; 
+}
+
+#otpInputDiv:focus {
+    text-align: left; 
+}
+#otpInputDiv::placeholder {
+    opacity: 0.3; 
+    text-align: center;
+    font-size: 16px !important;
+    letter-spacing: 7px !important;
+    margin-left: 5px !important;
+}
+.vfdIcn {
+    background-position: -59px -57px;
+    width: 15px;
+    height: 15px
+  }
+  .tp-40{
+    top: -40px;
+}
+.sCntr {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }

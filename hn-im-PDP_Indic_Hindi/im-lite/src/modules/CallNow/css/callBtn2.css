@@ -1,0 +1,50 @@
+.w80{
+    width:80%
+}
+.mt-2{margin-top: -2px}
+.callBtnCntnrPDP{margin:10px -5px 0px}
+.callBtnPDP{margin:0 0 5px}
+.mt-4{
+    margin-top: -4px;
+}  
+.callIcnNAB{
+    background-image: url("https://m.imimg.com/gifs/img/callIcnNAB.svg");
+    background-repeat:no-repeat;
+    background-position:0;
+    width:16px;
+    height:16px
+}
+.W200{
+    width: 200%;
+}
+.W190{
+    width: 190%;
+}
+.rt10{
+    right: 10px;
+}
+.bgwhite{
+    background-color: #fff !important;
+}
+.l101{
+    left: -101%;
+}
+.l100{
+    left: -100%;
+}
+.l95{
+    left: -95%;
+}
+.bt30{
+    bottom: 30px;
+}
+.pd10b30{
+    padding: 10px 10px 30px 10px;
+}
+.r2{
+    right: 2px;
+}
+.l15{
+    left: 15%;
+}
+.callIcnN{background-image:url(https://m.imimg.com/gifs/img/green-call.svg);background-repeat:no-repeat;background-position:0 0;width:16px;height:16px}

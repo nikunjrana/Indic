@@ -1,0 +1,238 @@
+.pbrNbg .bgR {
+  background-image: url("https://m.imimg.com/gifs/img/bulding-rp.png"); 
+  background-repeat:repeat;
+}
+.fw500 {
+  font-weight: 500;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+  }
+  
+  .mt5 {
+    margin-top: 5px;
+  }
+
+.m20prcnt {
+  margin: 0 20%;
+}
+.extendedSctn div.extBG {
+  background-color: #DEE5FF;
+  border-radius: 10px;
+}
+.compnbg{
+  background-color: #017aff;
+}
+.pbrNbg {
+  background: #003d89;
+   background: linear-gradient(to bottom, #003d89 0%,#001f4a 100%);;
+}
+
+.vert-move {
+  animation: mover .8s infinite  alternate;
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+.bgshnH {
+  width:100%;
+  word-wrap: break-word;
+  animation-name: bgAni;
+ animation-duration: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier();
+
+}
+.wd180p{width: max-content;     min-width: 200px;
+  bottom: -28px;
+  box-shadow: 1px 3px 5px 0 #a1a1a1;
+}
+  .bdrb35{border-bottom: 35px solid #fff;}
+
+  @keyframes bgAni {
+    from {
+      background-repeat: no-repeat;
+      background-image: -webkit-linear-gradient(top left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 45%, rgba(255, 255, 255, 0.2) 48%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.1) 52%, rgba(255, 255, 255, 0.0) 57%, rgba(255, 255, 255, 0.0) 100% );
+      background-position: -350px -350px;
+      background-size: 600px 600px;
+    }
+  
+    to {
+      background-repeat: no-repeat;
+      background-position: 350px 350px;
+    }
+  }
+
+
+.bgNR{
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.bdr-bl{border: 1px solid #afbbe1;}
+
+.bknone{background: none;}
+
+.hpbrArr:before {
+  border-color: #2e3192 transparent transparent;
+  left: 0;
+  top: 0
+}
+
+.hpbrArr:after {
+  border-color: transparent #2e3192 transparent transparent;
+  right: 0;
+  bottom: 0
+}
+
+.hpbrArr:after,.hpbrArr:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 0;
+  position: absolute
+}
+.rt15{right:15px}
+
+.fl-sh {flex-shrink: 0;} 
+.mxht100{max-height: 100px;}
+.mxwd100{max-width: 100px;}
+.w100px{    width: 100px;}
+
+.w100p { width: 100px;}
+ .arrow { opacity: 0; position: absolute;right: 23px;  top: 21px;transform-origin: 50% 50%;transform: translate3d(-50%,-50%,0) }
+ .arrow-first {animation: arrow-movement 2s ease-in-out infinite }
+ .arrow-second {animation: arrow-movement 2s ease-in-out 1s infinite }
+ .arrow:after,.arrow:before { background: #fff;  content: "";  display: block;  height: 2px; position: absolute;  top: 0; left: 0;  width: 10px }
+ .arrow:before { transform: rotate(210deg) translateX(0);  transform-origin: 0 0 }
+ .arrow:after { transform: rotate(150deg) translateX(0); transform-origin: 0 0 }
+ @keyframes arrow-movement {
+  0% {opacity: 0;right: 48%  }
+  70% { opacity: 1 }
+  to {opacity: 0}
+ } 
+ .handleNext {
+  color: #fff;
+  background: #0e3192;
+}
+.pdb15Imp{
+  padding-bottom: 15px !important;
+}
+.soiEven{
+  display: inline-flex;
+  padding: 8px 16px 8px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background: #FFF;
+  width: 100%;
+  }
+  .soiL{
+    width: 163px;
+    height: 123px;
+    flex-shrink: 0;
+  }
+  .soiLinner{
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #EAF6F6;
+  }
+  .soiLbtm{
+    width: 163px;
+    min-height: 97px;
+    flex-shrink: 0;
+    border-radius: 7px;
+   
+    padding: 5px;
+  }
+ #soiL{background: #EAF6F6;}
+  .soiLouter{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: #FFF;
+  }
+  .buyR{
+    width: 163px;
+    height: 119px;
+    flex-shrink: 0;
+  }
+  .buyRouter{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: #FFF;
+  }
+  .buyRinner{
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 0.5px solid var(--brand-2, #0AA699);
+    background: #FDFDFD;
+  }
+  .buyRbtm{
+    width: 163px;
+    min-height: 97px;
+    flex-shrink: 0;
+  
+ 
+
+    padding: 5px;
+  }
+  #buyR {background: #FAFAFA; border: 0.5px solid var(--brand-2, #0AA699);   border-radius: 6px;}
+
+  .mr4{
+    margin-right: 4px;
+  }
+  .clrGry{
+    color: #757575;
+  }
+  .buyRbtn{
+    display: inline-flex;
+    padding: 5px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    border: 1px solid var(--brand-2, #0AA699);
+    background: #FFF;
+    margin-top: 13px;
+  }
+  .clrGrn{
+    color: #0AA699;
+  }
+  .mt26{
+    margin-top: 26px;
+  }
+  .buyRicon{
+    background-image: url(https://m.imimg.com/gifs/img/BuyCartIcon.png);
+    width: 20px;
+    height: 17.614px;
+    flex-shrink: 0;
+  }
+  .soiOdd{
+    width: 100%;
+    flex-shrink: 0;
+    background: #FFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+  .sellBuyIcn{
+    background-image: url(https://m.imimg.com/gifs/img/buySellIcon.png);
+    width: 135.515px;
+    height: 89.999px;
+    flex-shrink: 0;
+  }
+  .b40{
+    bottom: 40px;
+  }

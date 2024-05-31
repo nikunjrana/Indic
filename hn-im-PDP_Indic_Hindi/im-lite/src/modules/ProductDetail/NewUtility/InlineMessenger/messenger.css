@@ -1,0 +1,67 @@
+.message-widget {
+    padding: 10px;
+    background-color:#EBFBFA;
+    }
+    .callIcnBig1 {
+      background-image: url("https://m.imimg.com/gifs/img/callIcnBig1.svg");
+      background-repeat: no-repeat;background-position: 0 0;width: 16px;height: 16px;
+  }
+  .wh35{width: 35px;height: 35px;}
+  .MsgInp{
+      width: 100%;
+      padding: 12px;
+      border-radius: 20px;
+      padding-right: 50px;
+    }
+    .alignStretch{
+      align-items: stretch;
+    }
+    .jcse{justify-content: space-evenly;}
+    .custbtn {
+      font-size:14px;
+      padding: 12px 5px;
+      color: #575757;
+    }
+  .sendIcon{
+    background-image: url("https://m.imimg.com/gifs/img/SendIcnPDP.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    scale: 0.7;
+  }
+  .w50p{
+    width:50px;
+  }
+  .ht40p{
+    height:40px;
+  }
+    .send-button {
+      border-radius: 25px;
+      scale: 0.9;
+    }
+    .MessengerMsgicon {
+      background-image: url("https://m.imimg.com/gifs/img/messagePdp.svg");
+      background-position: 0 0;
+      width: 30px;
+      height: 35px;
+      padding: 10px;
+  }
+  .flex1 {
+    flex: 1;
+  }
+  .jcstart{
+    justify-content: start;
+  }
+  .cgap7px{
+    column-gap: 7px;
+  }
+  .clrr{
+    color: red;
+  }
+  .ml20{margin-left: 20px;}
+    
+    
+    
+    
+    

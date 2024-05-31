@@ -1,0 +1,6 @@
+/*Standard product widget css*/
+.h230{height:230px}.w40{width:40%}
+.eelpst.fadElip:after{height:18px;width:20%}
+.fadElip:after{content:"";text-align:right;position:absolute;bottom:0;right:0;width:10%;height:30px;background:linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,1) 50%)}
+/*Standard product widget css ends*/
+.h255{height:255px}.mnW125{min-width:125px}.mnH125{min-height:125px}.ht125{height: 125px;}.h245{height: 245px;}
